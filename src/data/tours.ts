@@ -376,10 +376,10 @@ export const tours: Tour[] = [
     duration: 5,
     price: 115000,
     originalPrice: 135000,
-    image: 'https://images.unsplash.com/photo-1539650116574-75c0c6d73460?w=1200&h=800&fit=crop&q=85',
+    image: 'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&h=800&fit=crop&q=85',
     images: [
-      'https://images.unsplash.com/photo-1539650116574-75c0c6d73460?w=1200&h=800&fit=crop&q=85',
       'https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=1200&h=800&fit=crop&q=85',
+      'https://images.unsplash.com/photo-1539650116574-75c0c6d73460?w=1200&h=800&fit=crop&q=85',
       'https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1200&h=800&fit=crop&q=85',
     ],
     description: 'Столица ОАЭ с богатой культурой и современной архитектурой',
