@@ -1,0 +1,708 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Отобранные туры для отдыха без лишнего шума. Только проверенные варианты с личным подходом.">
+    <meta name="keywords" content="туры, отдых, турагентство, путешествия">
+    <title>Отобранные туры для отдыха без лишнего шума</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <span class="logo-text">Твой<span class="logo-highlight">тур</span></span>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="hero">
+        <div class="hero-background"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">Подбираем туры, которые действительно стоит рассмотреть</h1>
+            <p class="hero-subtitle">Работаем напрямую с отелями и авиакомпаниями. Мы не показываем сотни вариантов — отбираем то, что выбрали бы себе и близким</p>
+            <div class="hero-buttons">
+                <a href="#tours" class="btn btn-primary">Смотреть туры</a>
+                <a href="https://t.me/marytourism" target="_blank" class="btn btn-secondary">Написать в Telegram</a>
+            </div>
+        </div>
+    </section>
+    <section class="why-section">
+        <div class="container">
+            <div class="why-header">
+                <h2 class="section-title">ПРЯМОЙ ДОСТУП К ОТЕЛЯМ И АВИАКОМПАНИЯМ</h2>
+                <p class="why-subtitle">Формируем турпакеты напрямую с отелями и перевозчиками — выгодные цены без посредников</p>
+            </div>
+            <div class="why-grid">
+                <div class="why-item fade-in">
+                    <div class="why-icon">✓</div>
+                    <h3>Не всё подряд</h3>
+                    <p>Мы не показываем сотни вариантов. Отбираем то, что выбрали бы себе и близким</p>
+                </div>
+                <div class="why-item fade-in">
+                    <div class="why-icon">₽</div>
+                    <h3>Цены от оператора</h3>
+                    <p>Актуальность уточняем в момент вашего запроса</p>
+                </div>
+                <div class="why-item fade-in">
+                    <div class="why-icon">💬</div>
+                    <h3>Общение напрямую</h3>
+                    <p>Работаем командой, без колл-центров</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК КОНТЕКСТА ПЕРЕД ТУРАМИ -->
+    <section class="context-section">
+        <div class="container">
+            <div class="context-content">
+                <p class="context-text">Мы не собираем каталог всех туров.<br>Показываем только те варианты, которые проверили и можем подробно объяснить.</p>
+                <p class="context-description">По каждому отелю рассказываем:<br>— что это за место и как там устроено<br>— как проходит отдых<br>— кому подойдёт, а кому нет</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК "КЛЮЧЕВЫЕ ОСОБЕННОСТИ" -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Ключевые особенности</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Прямое сотрудничество</h3>
+                    <p>Мы формируем турпакеты напрямую с отелями и авиакомпаниями, что позволяет предлагать выгодные цены без посредников.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">✈️</div>
+                    <h3>Быстрый подбор</h3>
+                    <p>Мы подбираем туры с тёплым морем и отдыхом по системе «всё включено». Находим подходящий вариант за считанные минуты.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">💬</div>
+                    <h3>Удобное бронирование</h3>
+                    <p>Мы бронируем туры через Telegram и WhatsApp. Поддерживаем на всех этапах — от подбора до возвращения.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Разнообразие направлений</h3>
+                    <p>Туры в Египет, ОАЭ, Таиланд и другие популярные направления. Мы подберём вариант под ваши предпочтения.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФОНОВЫЙ РАЗДЕЛИТЕЛЬ: Вход в раздел туров -->
+    <section class="background-divider sea-entrance" style="background-image: url('https://images.unsplash.com/photo-1566073771259-6a8506099945?w=1920&h=1080&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></section>
+
+    <section id="tours" class="tours-section">
+        <div class="container">
+            <div class="tours-intro">
+                <h2 class="section-title">Как мы отбираем отели</h2>
+                <p class="tours-intro-text">Мы не собираем каталог всех отелей.<br>Показываем только те варианты, которые проверили и можем подробно объяснить.</p>
+            </div>
+            <!-- Бюджет -->
+            <div class="tour-category tour-category-budget">
+                <h3 class="category-title">Бюджет</h3>
+                <div class="tours-grid">
+                    <div class="tour-card tour-card-large fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Турция, Кемер • 7 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Sunshine Beach Hotel 4*</h4>
+                            <div class="tour-stars">★★★★☆</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Тип: курортный отель</li>
+                                        <li>Территория: компактная, 2 корпуса</li>
+                                        <li>Пляж: первая линия, собственный</li>
+                                        <li>Бассейн: 2 бассейна, детский отдельно</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Основной ресторан (шведский стол)</li>
+                                        <li>Бар у бассейна</li>
+                                        <li>Алкоголь местный, включён</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Днём спокойно, вечером лёгкая анимация у бассейна. Основной контингент — пары и семьи с детьми.</p>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Кому подойдёт / не подойдёт</strong>
+                                    <p><strong>Подойдёт:</strong> спокойный пляжный отдых, семьи с детьми<br>
+                                    <strong>Не подойдёт:</strong> тусовки, активная ночная жизнь</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 45 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-medium fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1551882547-ff40c63fe5fa?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Египет, Хургада • 7 ночей • Завтрак</div>
+                            <h4 class="tour-hotel">Red Sea Resort 3*</h4>
+                            <div class="tour-stars">★★★☆☆</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Городской отель, 1 основной корпус</li>
+                                        <li>Пляж через дорогу (5 минут пешком)</li>
+                                        <li>Бассейн на крыше</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Завтрак шведский стол</li>
+                                        <li>Обед и ужин — за доплату или в городе</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Городской формат без анимации. Подходит для самостоятельного отдыха и поездок в центр.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 38 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1528909514045-2fa4ac7a08ba?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Турция, Аланья • 10 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Blue Paradise Hotel 3*</h4>
+                            <div class="tour-stars">★★★☆☆</div>
+                            <p class="tour-brief">Отель простой, но аккуратный. Большой бассейн, территория ухоженная. Подходит для спокойного отдыха.</p>
+                            <div class="tour-price">от 52 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1560347876-aeef00ee58a1?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Греция, Родос • 7 ночей • Завтрак</div>
+                            <h4 class="tour-hotel">Aegean View Hotel 3*</h4>
+                            <div class="tour-stars">★★★☆☆</div>
+                            <p class="tour-brief">Центр города, рядом пляж и достопримечательности. Без анимации, подходит для самостоятельных поездок.</p>
+                            <div class="tour-price">от 48 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    <div class="tour-card tour-card-more fade-in">
+                        <div class="tour-more-content">
+                            <div class="tour-more-icon">💬</div>
+                            <h4 class="tour-more-title">Есть ещё варианты</h4>
+                            <p class="tour-more-text">Это не все предложения из этой категории. Напишите в Telegram — покажем полный список и подберём под ваши даты.</p>
+                            <a href="https://t.me/marytourism" target="_blank" class="btn btn-more">Написать в Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tours-divider">
+                <p class="tours-divider-text">Что важно знать перед выбором тура</p>
+                <p class="tours-divider-description">Один и тот же отель может подойти одному и не подойти другому.<br>Мы всегда объясняем нюансы заранее, чтобы вы выбрали то, что вам действительно подходит.</p>
+            </div>
+            
+            <!-- ФОНОВЫЙ РАЗДЕЛИТЕЛЬ: Между категориями туров -->
+            <div class="background-divider-inline family-beach" style="background-image: url('https://images.unsplash.com/photo-1501785888041-af3ef285b470?w=1920&h=1080&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+
+            <!-- Для семьи -->
+            <div class="tour-category tour-category-family">
+                <h3 class="category-title">Для семьи</h3>
+                <div class="tours-grid">
+                    <div class="tour-card tour-card-large fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1590490360182-c33d57733427?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Турция, Белек • 10 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Grand Family Resort 5*</h4>
+                            <div class="tour-stars">★★★★★</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Тип: большой семейный курорт</li>
+                                        <li>Территория: просторная, несколько корпусов</li>
+                                        <li>Пляж: первая линия, песчаный</li>
+                                        <li>Аквапарк на территории (включён)</li>
+                                        <li>Детский клуб с анимацией</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Основной ресторан (шведский стол)</li>
+                                        <li>Снэк-бар у бассейна</li>
+                                        <li>Детское меню отдельно</li>
+                                        <li>Алкоголь импортный и местный</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Утром завтрак, потом пляж или аквапарк. Детей можно отдать в клуб. Вечером анимация для детей и взрослых. Формат активный, не скучно.</p>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Кому подойдёт / не подойдёт</strong>
+                                    <p><strong>Подойдёт:</strong> семьям с детьми 3–12 лет, кто хочет, чтобы дети были заняты<br>
+                                    <strong>Не подойдёт:</strong> парам без детей, тихий спокойный отдых</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 95 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-medium fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1540541338287-003002d531db?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Испания, Коста-дель-Соль • 7 ночей • Завтрак</div>
+                            <h4 class="tour-hotel">Costa del Sol Family 4*</h4>
+                            <div class="tour-stars">★★★★☆</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Курортный отель у моря</li>
+                                        <li>Территория средняя</li>
+                                        <li>Пляж через променад (2 минуты)</li>
+                                        <li>Детская площадка и мини-клуб</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Завтрак шведский стол</li>
+                                        <li>Обед и ужин — в ресторанах города или отеля за доплату</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Спокойный формат. Подходит семьям, которые хотят совмещать пляж с прогулками и поездками по побережью.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 78 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">ОАЭ, Дубай • 7 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Family Paradise Resort 4*</h4>
+                            <div class="tour-stars">★★★★☆</div>
+                            <p class="tour-brief">Отель с детской анимацией и развлечениями. Большой бассейн, территория хорошо ухожена. Подходит для семейного отдыха.</p>
+                            <div class="tour-price">от 85 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Тунис, Сус • 10 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Mediterranean Family 4*</h4>
+                            <div class="tour-stars">★★★★☆</div>
+                            <p class="tour-brief">Семейные номера, детская анимация. Аквапарк на территории. Подходит для отдыха с детьми.</p>
+                            <div class="tour-price">от 72 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    <div class="tour-card tour-card-more fade-in">
+                        <div class="tour-more-content">
+                            <div class="tour-more-icon">💬</div>
+                            <h4 class="tour-more-title">Есть ещё варианты</h4>
+                            <p class="tour-more-text">Это не все предложения из этой категории. Напишите в Telegram — покажем полный список и подберём под ваши даты.</p>
+                            <a href="https://t.me/marytourism" target="_blank" class="btn btn-more">Написать в Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="tours-divider">
+                <p class="tours-divider-text">Премиум — это не просто звёзды</p>
+                <p class="tours-divider-description">Премиум-отели отличаются не только уровнем сервиса, но и атмосферой, территорией, расположением.<br>Мы объясняем, за что вы платите и чего ожидать от каждого отеля.</p>
+            </div>
+            
+            <!-- ФОНОВЫЙ РАЗДЕЛИТЕЛЬ: Перед премиум-категорией -->
+            <div class="background-divider-inline luxury-resort" style="background-image: url('https://images.unsplash.com/photo-1470240731273-7821a6eeb6bd?w=1920&h=1080&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+
+            <!-- Премиум / Select -->
+            <div class="tour-category tour-category-premium">
+                <h3 class="category-title">Премиум / Select</h3>
+                <div class="tours-grid">
+                    <div class="tour-card tour-card-large fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1573843981267-be1999ff37cd?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Мальдивы, Thaa Atoll • 7 ночей • Все включено</div>
+                            <h4 class="tour-hotel">COMO Maalifushi 5*</h4>
+                            <div class="tour-stars">★★★★★</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Тип: резорт на частном острове</li>
+                                        <li>Размещение: виллы над водой и на пляже</li>
+                                        <li>Территория: небольшой остров, всё рядом</li>
+                                        <li>Пляж: белоснежный песок, коралловый риф</li>
+                                        <li>Сервис: персональный консьерж</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Все включено премиум-класса</li>
+                                        <li>Ресторан с меню, не шведский стол</li>
+                                        <li>Алкоголь премиум включён</li>
+                                        <li>Мини-бар в номере бесплатный</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Уединённо и спокойно. Много дайвинга и снорклинга (риф прямо у острова). Вечером ужин, отдых. Никакой анимации. Формат для тех, кто хочет отключиться.</p>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Кому подойдёт / не подойдёт</strong>
+                                    <p><strong>Подойдёт:</strong> парам, романтический отдых, любители дайвинга, уединения<br>
+                                    <strong>Не подойдёт:</strong> семьям с детьми, кто ищет развлечения и активность</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 250 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-medium fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1514282401047-d79a71a590e8?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Сейшелы, Маэ • 10 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Four Seasons Resort Seychelles 5*</h4>
+                            <div class="tour-stars">★★★★★</div>
+                            
+                            <div class="tour-description">
+                                <div class="tour-section">
+                                    <strong>Что это за отель</strong>
+                                    <ul>
+                                        <li>Премиум-резорт на склоне холма</li>
+                                        <li>Размещение: виллы с приватными бассейнами</li>
+                                        <li>Пляж: приватный, песчаный</li>
+                                        <li>SPA-центр мирового класса</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Питание</strong>
+                                    <ul>
+                                        <li>Все включено премиум</li>
+                                        <li>Несколько ресторанов на выбор</li>
+                                        <li>Алкоголь премиум включён</li>
+                                    </ul>
+                                </div>
+                                
+                                <div class="tour-section">
+                                    <strong>Как проходит отдых</strong>
+                                    <p>Эксклюзивно и размеренно. Много внимания к деталям сервиса. Подходит для особых случаев и тех, кто ценит уровень сервиса.</p>
+                                </div>
+                            </div>
+                            
+                            <div class="tour-price">от 320 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">ОАЭ, Дубай • 7 ночей • Все включено</div>
+                            <h4 class="tour-hotel">Burj Al Arab Jumeirah 5*</h4>
+                            <div class="tour-stars">★★★★★</div>
+                            <p class="tour-brief">Иконический отель, люксы от 170 кв.м. Персональный консьерж, рестораны уровня мишлен. Уровень сервиса исключительный.</p>
+                            <div class="tour-price">от 180 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    
+                    <div class="tour-card tour-card-small fade-in">
+                        <div class="tour-image" style="background-image: url('https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=1200&h=800&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></div>
+                        <div class="tour-info">
+                            <div class="tour-meta">Бали, Нуса-Дуа • 10 ночей • Завтрак</div>
+                            <h4 class="tour-hotel">The St. Regis Bali Resort 5*</h4>
+                            <div class="tour-stars">★★★★★</div>
+                            <p class="tour-brief">Виллы на скале с видом на океан. SPA-ритуалы, рестораны высокого уровня. Спокойная атмосфера, высокий уровень сервиса.</p>
+                            <div class="tour-price">от 195 000 ₽</div>
+                            <button class="btn btn-tour">Уточнить актуальную цену</button>
+                            <p class="tour-note">Цена может меняться — уточним актуальную при запросе</p>
+                        </div>
+                    </div>
+                    <div class="tour-card tour-card-more fade-in">
+                        <div class="tour-more-content">
+                            <div class="tour-more-icon">💬</div>
+                            <h4 class="tour-more-title">Есть ещё варианты</h4>
+                            <p class="tour-more-text">Это не все предложения из этой категории. Напишите в Telegram — покажем полный список и подберём под ваши даты.</p>
+                            <a href="https://t.me/marytourism" target="_blank" class="btn btn-more">Написать в Telegram</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК КОНТЕКСТА ПЕРЕД ТУРАМИ -->
+    <section class="context-section">
+        <div class="container">
+            <div class="context-content">
+                <p class="context-text">Мы не собираем каталог всех туров.<br>Показываем только те варианты, которые проверили и можем подробно объяснить.</p>
+                <p class="context-description">По каждому отелю рассказываем:<br>— что это за место и как там устроено<br>— как проходит отдых<br>— кому подойдёт, а кому нет</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК "КЛЮЧЕВЫЕ ОСОБЕННОСТИ" -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">Ключевые особенности</h2>
+            <div class="features-grid">
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🤝</div>
+                    <h3>Прямое сотрудничество</h3>
+                    <p>Мы формируем турпакеты напрямую с отелями и авиакомпаниями, что позволяет предлагать выгодные цены без посредников.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">✈️</div>
+                    <h3>Быстрый подбор</h3>
+                    <p>Мы подбираем туры с тёплым морем и отдыхом по системе «всё включено». Находим подходящий вариант за считанные минуты.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">💬</div>
+                    <h3>Удобное бронирование</h3>
+                    <p>Мы бронируем туры через Telegram и WhatsApp. Поддерживаем на всех этапах — от подбора до возвращения.</p>
+                </div>
+                <div class="feature-card fade-in">
+                    <div class="feature-icon">🌍</div>
+                    <h3>Разнообразие направлений</h3>
+                    <p>Туры в Египет, ОАЭ, Таиланд и другие популярные направления. Мы подберём вариант под ваши предпочтения.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФОНОВЫЙ РАЗДЕЛИТЕЛЬ: Вход в раздел туров -->
+    <section class="background-divider sea-entrance" style="background-image: url('https://images.unsplash.com/photo-1564501049412-61c2a3083791?w=1920&h=1080&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></section>
+
+    <!-- БЛОК ДОВЕРИЯ -->
+    <section class="trust-section">
+        <div class="container">
+            <div class="trust-content">
+                <p class="trust-text">Мы не показываем сотни вариантов.<br>Отбираем то, что выбрали бы себе или близким</p>
+                <div class="trust-icons">
+                    <div class="trust-item">
+                        <div class="trust-icon">📅</div>
+                        <p>Опыт</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">🤝</div>
+                        <p>Поддержка</p>
+                    </div>
+                    <div class="trust-item">
+                        <div class="trust-icon">📱</div>
+                        <p>Прямой контакт</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК ОТЗЫВОВ -->
+    <section class="reviews-section">
+        <div class="container">
+            <h2 class="section-title">Отзывы наших клиентов</h2>
+            <p class="reviews-intro">Мы работаем с реальными людьми и получаем обратную связь после каждой поездки. Вот что говорят наши клиенты.</p>
+            <div class="reviews-grid">
+                <div class="review-card fade-in">
+                    <div class="review-avatar">М</div>
+                    <div class="review-content">
+                        <p class="review-text">Отличная организация тура в Египет! Команда была внимательна и помогала по всем вопросам. Очень понравилось!</p>
+                    </div>
+                    <div class="review-author">
+                        <strong>Мария П.</strong>
+                        <span class="review-tour">Тур в Египет</span>
+                    </div>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-avatar">А</div>
+                    <div class="review-content">
+                        <p class="review-text">Мы выбрали тур в ОАЭ и остались очень довольны. Отличные отели и пляжи, сервис на высшем уровне.</p>
+                    </div>
+                    <div class="review-author">
+                        <strong>Алексей С.</strong>
+                        <span class="review-tour">Тур в ОАЭ</span>
+                    </div>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-avatar">Е</div>
+                    <div class="review-content">
+                        <p class="review-text">Отдых в Таиланде превзошёл все ожидания! Чистые пляжи, дружелюбные люди и интересные экскурсии. Большое спасибо команде!</p>
+                    </div>
+                    <div class="review-author">
+                        <strong>Елена В.</strong>
+                        <span class="review-tour">Тур в Таиланд</span>
+                    </div>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-avatar">Д</div>
+                    <div class="review-content">
+                        <p class="review-text">Быстро подобрали тур в Египет, всё чётко и без лишних сложностей. Рекомендую!</p>
+                    </div>
+                    <div class="review-author">
+                        <strong>Дмитрий И.</strong>
+                        <span class="review-tour">Тур в Египет</span>
+                    </div>
+                </div>
+                <div class="review-card fade-in">
+                    <div class="review-avatar">Н</div>
+                    <div class="review-content">
+                        <p class="review-text">Очень удобно, что можно всё оформить через Telegram и WhatsApp. Спасибо команде за отличный сервис!</p>
+                    </div>
+                    <div class="review-author">
+                        <strong>Наталья К.</strong>
+                        <span class="review-tour">Тур в Египет</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК О ГИДЕ/ЭКСПЕРТЕ -->
+    <section class="expert-section">
+        <div class="container">
+            <div class="expert-content">
+                <div class="expert-text">
+                    <h2 class="expert-title">Наша команда</h2>
+                    <p class="expert-description">Мы — команда специалистов по путешествиям с практическим опытом работы в туризме.</p>
+                    <p class="expert-description">Мы хорошо знаем отели, направления и реальные нюансы отдыха и честно рассказываем о них клиентам.</p>
+                    <p class="expert-description">В процессе подбора вы можете задать любой вопрос. Мы сопровождаем вас на всех этапах — от выбора тура до вылета — чтобы отдых прошёл спокойно и без неожиданностей.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- БЛОК ОПЛАТЫ И УСЛОВИЙ -->
+    <section class="payment-section">
+        <div class="container">
+            <h2 class="section-title">Оплата и условия</h2>
+            <div class="payment-content">
+                <p class="payment-text">Цены указаны ориентировочно и могут меняться.<br>Способ оплаты подбираем индивидуально — подскажем удобный и безопасный вариант.</p>
+                <div class="payment-methods">
+                    <div class="payment-method">
+                        <span class="payment-icon">💳</span>
+                        <span>Visa</span>
+                    </div>
+                    <div class="payment-method">
+                        <span class="payment-icon">💳</span>
+                        <span>MasterCard</span>
+                    </div>
+                    <div class="payment-method">
+                        <span class="payment-icon">🏦</span>
+                        <span>Bank Transfer</span>
+                    </div>
+                    <div class="payment-method">
+                        <span class="payment-icon">₿</span>
+                        <span>Crypto</span>
+                    </div>
+                </div>
+                <p class="payment-note">Подробности — в личном общении.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ФОНОВЫЙ РАЗДЕЛИТЕЛЬ: Перед CTA -->
+    <section class="background-divider ocean-horizon" style="background-image: url('https://images.unsplash.com/photo-1502082553048-f009c37129b9?w=1920&h=1080&fit=crop&q=80'); background-size: cover; background-position: center; background-repeat: no-repeat; filter: none;"></section>
+
+    <!-- CTA-БЛОК -->
+    <section class="cta-section">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами для планирования отпуска</h2>
+            <p class="cta-text">Ответим на ваши вопросы и поможем с подбором и бронированием туров</p>
+            <div class="cta-buttons">
+                <a href="https://t.me/marytourism" target="_blank" class="btn btn-cta btn-telegram">
+                    <span>💬 Telegram</span>
+                </a>
+                <a href="https://wa.me/66903316008?text=Здравствуйте!%20Хочу%20уточнить%20тур." target="_blank" class="btn btn-cta btn-whatsapp">
+                    <span>💬 WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-about">
+                    <h4>О нас</h4>
+                    <p>Мы помогаем найти подходящий отдых. Показываем только проверенные варианты и поддерживаем на всех этапах.</p>
+                </div>
+                <div class="footer-contact">
+                    <h4>Контакты</h4>
+                    <p>Telegram: <a href="https://t.me/marytourism" target="_blank">@marytourism</a></p>
+                    <p>WhatsApp: <a href="https://wa.me/66903316008?text=Здравствуйте!%20Хочу%20уточнить%20тур." target="_blank">+66903316008</a></p>
+                </div>
+            </div>
+            <div class="footer-disclaimer">
+                <p>Цены указаны ориентировочно и могут изменяться. Актуальную стоимость уточняйте при бронировании.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+</html>
+
