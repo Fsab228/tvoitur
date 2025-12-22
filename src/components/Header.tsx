@@ -21,19 +21,9 @@ const Header = () => {
     <header className="bg-white shadow-md sticky top-0 z-50">
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-20">
-          {/* Logo - используем логотип Pegas */}
+          {/* Logo */}
           <Link to="/" className="flex items-center space-x-2">
-            <img 
-              src="https://pegast.ru/local/templates/pegast/images/logo.svg" 
-              alt="Pegas Touristik" 
-              className="h-10"
-              onError={(e) => {
-                // Fallback если изображение не загрузилось
-                const target = e.target as HTMLImageElement
-                target.style.display = 'none'
-                target.parentElement!.innerHTML = '<span class="text-2xl font-bold text-primary-600">Pegas</span>'
-              }}
-            />
+            <span className="text-2xl font-bold text-primary-600">ТвойТур</span>
           </Link>
 
           {/* Desktop Navigation */}

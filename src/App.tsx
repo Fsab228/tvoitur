@@ -10,8 +10,11 @@ import HotTours from './pages/HotTours'
 import Promotions from './pages/Promotions'
 
 function App() {
+  // Определяем базовый путь для GitHub Pages
+  const basename = import.meta.env.BASE_URL || '/'
+  
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="min-h-screen flex flex-col">
         <Header />
         <main className="flex-grow">
