@@ -20,14 +20,14 @@ const Footer = () => {
                 </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/vacancies" className="hover:text-white transition-colors">
                   Вакансии
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/news" className="hover:text-white transition-colors">
                   Новости
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -59,24 +59,24 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Информация</h3>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/how-to-book" className="hover:text-white transition-colors">
                   Как забронировать
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/payment" className="hover:text-white transition-colors">
                   Оплата
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/documents" className="hover:text-white transition-colors">
                   Документы
-                </a>
+                </Link>
               </li>
               <li>
-                <a href="#" className="hover:text-white transition-colors">
+                <Link to="/visa-support" className="hover:text-white transition-colors">
                   Визовая поддержка
-                </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -91,7 +91,7 @@ const Footer = () => {
               <li>
                 <div className="flex space-x-4 mt-4">
                   <a
-                    href="https://t.me/tvoytur_manager"
+                    href="https://t.me/marytourism"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-blue-500 hover:bg-blue-600 px-4 py-2 rounded-lg transition-colors"
@@ -99,7 +99,7 @@ const Footer = () => {
                     Telegram
                   </a>
                   <a
-                    href="https://wa.me/79991234567"
+                    href="https://wa.me/66903316008"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition-colors"

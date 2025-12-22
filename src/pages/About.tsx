@@ -8,19 +8,23 @@ const About = () => {
         
         <div className="prose prose-lg max-w-none mb-12">
           <p className="text-xl text-gray-700 leading-relaxed mb-6">
-            ТвойТур — это ведущее туристическое агентство, которое помогает тысячам людей 
-            открывать для себя новые страны и получать незабываемые впечатления от путешествий.
+            ТвойТур — это туристическое агентство с индивидуальным подходом к каждому клиенту. 
+            Мы не показываем сотни вариантов — отбираем только те туры, которые проверили и можем 
+            подробно объяснить.
           </p>
           <p className="text-gray-700 leading-relaxed mb-6">
-            Мы работаем на рынке туризма уже много лет и за это время заслужили доверие 
-            наших клиентов. Наша команда профессионалов тщательно отбирает лучшие туры 
-            от проверенных туроператоров, чтобы предложить вам только качественные и 
-            безопасные варианты отдыха.
+            Наша команда работает напрямую с отелями и авиакомпаниями, что позволяет предлагать 
+            выгодные цены без посредников. Мы формируем турпакеты индивидуально под ваши даты 
+            и предпочтения, не ограничиваясь стандартными предложениями крупных операторов.
+          </p>
+          <p className="text-gray-700 leading-relaxed mb-6">
+            Мы честно рассказываем о каждом отеле: что это за место, как там устроено, 
+            как проходит отдых, кому подойдет, а кому нет. Наша цель — чтобы вы выбрали именно то, 
+            что вам действительно подходит, а не то, что просто есть в базе.
           </p>
           <p className="text-gray-700 leading-relaxed">
-            Мы понимаем, что каждое путешествие уникально, поэтому предлагаем 
-            индивидуальный подход к каждому клиенту. Наши менеджеры всегда готовы 
-            помочь вам выбрать идеальный тур, который соответствует вашим желаниям и бюджету.
+            Бронирование происходит через Telegram и WhatsApp — быстро, удобно, без звонков 
+            в call-центры. Мы поддерживаем вас на всех этапах — от подбора тура до возвращения домой.
           </p>
         </div>
 
@@ -29,10 +33,10 @@ const About = () => {
             <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
               <Star className="w-8 h-8 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Наш опыт</h3>
+            <h3 className="text-xl font-semibold mb-3">Наш подход</h3>
             <p className="text-gray-600">
-              Более 10 лет успешной работы на рынке туризма. Мы знаем все тонкости 
-              организации идеального отдыха.
+              Работаем напрямую с отелями и перевозчиками. Не показываем всё подряд — 
+              отбираем проверенные варианты с личным подходом к каждому клиенту.
             </p>
           </div>
 
@@ -40,10 +44,10 @@ const About = () => {
             <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
               <Users className="w-8 h-8 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Наши клиенты</h3>
+            <h3 className="text-xl font-semibold mb-3">Прямое общение</h3>
             <p className="text-gray-600">
-              Более 50 000 довольных клиентов, которые вернулись к нам снова и 
-              рекомендуют нас своим друзьям.
+              Работаем командой, без колл-центров. Каждый клиент общается напрямую 
+              с менеджером, который ведет его от подбора до возвращения.
             </p>
           </div>
 
@@ -51,10 +55,10 @@ const About = () => {
             <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
               <Globe className="w-8 h-8 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Направления</h3>
+            <h3 className="text-xl font-semibold mb-3">Проверенные отели</h3>
             <p className="text-gray-600">
-              Мы предлагаем туры в более чем 50 стран мира — от пляжного отдыха 
-              до экстремальных приключений.
+              По каждому отелю рассказываем детально: что это за место, как устроено, 
+              как проходит отдых, кому подойдет, а кому нет. Честно и подробно.
             </p>
           </div>
 
@@ -62,10 +66,10 @@ const About = () => {
             <div className="bg-primary-100 w-16 h-16 rounded-full flex items-center justify-center mb-4">
               <Shield className="w-8 h-8 text-primary-600" />
             </div>
-            <h3 className="text-xl font-semibold mb-3">Гарантии</h3>
+            <h3 className="text-xl font-semibold mb-3">Поддержка</h3>
             <p className="text-gray-600">
-              Мы гарантируем безопасность вашего отдыха и полную поддержку на всех 
-              этапах путешествия.
+              Сопровождаем на всех этапах: от выбора тура до вылета и во время отдыха. 
+              Всегда на связи, решаем вопросы оперативно.
             </p>
           </div>
         </div>
@@ -77,7 +81,7 @@ const About = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://t.me/tvoytur_manager"
+              href="https://t.me/marytourism"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"
@@ -85,7 +89,7 @@ const About = () => {
               Написать в Telegram
             </a>
             <a
-              href="https://wa.me/79991234567"
+              href="https://wa.me/66903316008"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors"

@@ -159,7 +159,7 @@ const Home = () => {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
-              href="https://t.me/tvoytur_manager"
+              href="https://t.me/marytourism"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center space-x-2"
@@ -168,7 +168,7 @@ const Home = () => {
               <ArrowRight className="w-5 h-5" />
             </a>
             <a
-              href="https://wa.me/79991234567"
+              href="https://wa.me/66903316008"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 px-8 py-3 rounded-lg font-semibold transition-colors inline-flex items-center justify-center space-x-2"

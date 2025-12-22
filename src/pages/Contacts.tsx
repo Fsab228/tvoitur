@@ -17,12 +17,12 @@ const Contacts = () => {
               </div>
             </div>
             <p className="text-gray-700">
-              Москва, ул. Примерная, д. 1<br />
-              БЦ "Туристический", офис 205
+              Мы работаем удаленно и принимаем клиентов онлайн.<br />
+              Все консультации и бронирование через Telegram и WhatsApp.
             </p>
             <p className="text-gray-500 text-sm mt-2">
-              Пн-Пт: 10:00 - 20:00<br />
-              Сб-Вс: 11:00 - 18:00
+              Работаем ежедневно с 9:00 до 21:00 (МСК)<br />
+              Ответим в течение часа в рабочее время
             </p>
           </div>
 
@@ -50,7 +50,7 @@ const Contacts = () => {
           
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             <a
-              href="https://t.me/tvoytur_manager"
+              href="https://t.me/marytourism"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-blue-500 hover:bg-blue-600 text-white p-6 rounded-xl transition-colors flex items-center space-x-4"
@@ -58,12 +58,12 @@ const Contacts = () => {
               <MessageCircle className="w-8 h-8" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">Telegram</h3>
-                <p className="text-blue-100">Напишите нам в Telegram</p>
+                <p className="text-blue-100">@marytourism</p>
               </div>
             </a>
 
             <a
-              href="https://wa.me/79991234567"
+              href="https://wa.me/66903316008"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-500 hover:bg-green-600 text-white p-6 rounded-xl transition-colors flex items-center space-x-4"
@@ -71,7 +71,7 @@ const Contacts = () => {
               <MessageCircle className="w-8 h-8" />
               <div>
                 <h3 className="text-xl font-semibold mb-1">WhatsApp</h3>
-                <p className="text-green-100">Напишите нам в WhatsApp</p>
+                <p className="text-green-100">+66903316008</p>
               </div>
             </a>
           </div>
