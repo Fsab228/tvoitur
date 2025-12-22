@@ -5,10 +5,20 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ТвойТур - Туристическое агентство</title>
     <script>
-        // Сохраняем текущий URL в sessionStorage
-        sessionStorage.redirect = location.href;
-        // Перенаправляем на корневую страницу
-        location.replace(location.pathname.split('/').slice(0, -1).join('/') + '/');
+        // Сохраняем текущий URL в sessionStorage для обработки в index.html
+        var path = location.pathname;
+        var base = '/tvoitur/';
+        
+        // Если путь не начинается с базового пути, добавляем его
+        if (!path.startsWith(base)) {
+            path = base + path.replace(/^\//, '');
+        }
+        
+        // Сохраняем полный URL с базовым путем
+        sessionStorage.redirect = location.origin + path + location.search + location.hash;
+        
+        // Перенаправляем на index.html
+        location.replace(base + 'index.html');
     </script>
 </head>
 <body>
