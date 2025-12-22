@@ -11,7 +11,13 @@
         const redirect = sessionStorage.redirect;
         delete sessionStorage.redirect;
         if (redirect && redirect !== location.href) {
-          history.replaceState(null, null, redirect);
+          // Извлекаем путь из полного URL для правильной обработки базового пути
+          const url = new URL(redirect);
+          const path = url.pathname;
+          const search = url.search;
+          const hash = url.hash;
+          // Обновляем историю браузера с правильным путем
+          history.replaceState(null, null, path + search + hash);
         }
       })();
     </script>
