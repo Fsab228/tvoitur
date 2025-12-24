@@ -1,4 +1,4 @@
-import { Mail, MapPin, MessageCircle } from 'lucide-react'
+import { MapPin, MessageCircle } from 'lucide-react'
 
 const Contacts = () => {
   return (
@@ -6,8 +6,8 @@ const Contacts = () => {
       <div className="max-w-4xl mx-auto">
         <h1 className="text-4xl font-bold mb-8 text-center">Контакты</h1>
         
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
-          <div className="bg-white rounded-xl shadow-md p-8">
+        <div className="mb-12">
+          <div className="bg-white rounded-xl shadow-md p-8 max-w-2xl mx-auto">
             <div className="flex items-center space-x-4 mb-4">
               <div className="bg-primary-100 w-12 h-12 rounded-full flex items-center justify-center">
                 <MapPin className="w-6 h-6 text-primary-600" />
@@ -24,20 +24,6 @@ const Contacts = () => {
               Работаем ежедневно с 9:00 до 21:00 (МСК)<br />
               Ответим в течение часа в рабочее время
             </p>
-          </div>
-
-          <div className="bg-white rounded-xl shadow-md p-8">
-            <div className="flex items-center space-x-4 mb-4">
-              <div className="bg-primary-100 w-12 h-12 rounded-full flex items-center justify-center">
-                <Mail className="w-6 h-6 text-primary-600" />
-              </div>
-              <div>
-                <h3 className="text-xl font-semibold">Email</h3>
-              </div>
-            </div>
-            <a href="mailto:info@tvoytur.ru" className="text-primary-600 hover:text-primary-700">
-              info@tvoytur.ru
-            </a>
           </div>
         </div>
 

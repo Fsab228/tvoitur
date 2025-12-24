@@ -86,9 +86,6 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-4">Контакты</h3>
             <ul className="space-y-3 text-gray-400">
               <li>
-                <span>Email: info@tvoytur.ru</span>
-              </li>
-              <li>
                 <div className="flex space-x-4 mt-4">
                   <a
                     href="https://t.me/marytourism"
